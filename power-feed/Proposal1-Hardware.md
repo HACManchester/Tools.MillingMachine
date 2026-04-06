@@ -17,6 +17,12 @@ It's a Trinamic Driver which means it has support for setting options via SPI fo
 It also has optional support for an encoder (I think 32bit not sure of the spec)
 And 256 Microsteps
 
+## 4th Axis
+
+We have access to a 4th Axis stepper / 3 jaw chuck which could be useful on the milling machine
+So an additional secondary stepper driver and control for this could be useful at the same time
+This probably wouldn't need to be as powerful as the one for the powerfeed (unless we put a bigger stepper motor on it)
+
 ## Control Board
 
 Another idea is to try and use other BTT Hardware since it's cheap and compatible with the above
