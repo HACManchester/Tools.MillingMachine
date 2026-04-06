@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Page-1" id="Ql6bQsQYTL2YBgT8HghX">
-    <mxGraphModel dx="1200" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="998" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u71Ufks8L0K9Iz1Mx8gL-9" edge="1" parent="1" source="u71Ufks8L0K9Iz1Mx8gL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="u71Ufks8L0K9Iz1Mx8gL-7">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="300" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="u71Ufks8L0K9Iz1Mx8gL-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="SKR 1.4 Board&lt;br&gt;Running GrblHAL" vertex="1">
           <mxGeometry height="60" width="135" x="455" y="260" as="geometry" />
@@ -78,6 +82,16 @@
         </mxCell>
         <mxCell id="u71Ufks8L0K9Iz1Mx8gL-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="LCD" vertex="1">
           <mxGeometry height="60" width="120" x="930" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="P1b8GPnjfLrEh_-s8TiP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="External Limit Switches" vertex="1">
+          <mxGeometry height="60" width="160" x="800" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="P1b8GPnjfLrEh_-s8TiP-3" edge="1" parent="1" source="P1b8GPnjfLrEh_-s8TiP-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.344;entryDx=0;entryDy=0;entryPerimeter=0;" target="u71Ufks8L0K9Iz1Mx8gL-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="281" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
